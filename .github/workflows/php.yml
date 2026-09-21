@@ -27,7 +27,7 @@ jobs:
       uses: php-actions/phpcs@v1
       with:
         php_version: "8.0"     
-        run: composer run phpcs 
+        vendored_phpcs_path: vendor/bin/phpcs
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md

@@ -7,6 +7,7 @@ use Alura\Financeiro\Shared\App\Scheduler;
 use Alura\Financeiro\Shared\Infra\RabbitMQMessagingQueue;
 use Alura\Financeiro\Shared\Infra\SwooleTaskScheduler;
 use PhpAmqpLib\Connection\AMQPStreamConnection;
+
 use function DI\{create, factory, get};
 
 $builder = new \DI\ContainerBuilder();

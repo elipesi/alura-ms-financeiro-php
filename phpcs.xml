@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ruleset name="Financeiro">
+    <description>Padrão de código do projeto</description>
+
+    <file>src</file>
+    <file>index.php</file>
+    <file>di.php</file>
+
+    <arg name="colors"/>
+    <arg value="sp"/>
+
+    <rule ref="PSR12"/>
+</ruleset>

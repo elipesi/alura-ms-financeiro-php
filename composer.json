@@ -9,5 +9,11 @@
     "leocavalcante/siler": "^1.7",
     "ext-pdo": "*",
     "php-di/php-di": "^6.3"
-  }
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^4.0"
+  },
+  "scripts": {
+    "phpcs": "phpcs"
+}
 }
