@@ -23,7 +23,10 @@ jobs:
         php_extensions: sockets pdo_pgsql
       
     - name: PHPCS
-      run: composer run phpcs
+      uses: php-actions/phpcs@v1
+      with:
+        php_version: "8.0"     
+        run: composer run phpcs 
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
